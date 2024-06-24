@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checked {
+  background-color: lightgreen;
+}
+
+.table-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.table-container table {
+  table-layout: fixed;
+}
